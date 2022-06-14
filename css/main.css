@@ -1,0 +1,75 @@
+.header-bgc {
+    background-color: #374850;
+    color: #BFC1C8;
+}
+
+.main-color-text {
+    color: #37AEC3;
+}
+
+.nav-item .nav-link {
+    font-weight: 400;
+    color: #ffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caption-text p,
+.downloadApp p {
+    line-height: 38px;
+    color: #455a64;
+}
+
+.downloadApp button,
+.subscribe button {
+    transition: all 1s;
+}
+
+.downloadApp button:hover,
+.subscribe button:hover {
+    background-color: transparent;
+    color: #009AD8;
+}
+
+#findCity {
+    border: 1px solid #37AEC3;
+}
+
+.main-color {
+    background-color: #37AEC3;
+}
+
+.forcast-background-color {
+    background-color: #65c1d1;
+}
+
+.forcast-background-color:hover {
+    background-color: #37AEC3;
+}
+
+#searchBtn {
+    right: 10px;
+    top: 5px;
+    padding: 10px 20px;
+}
+
+.socialMediaIcons i {
+    margin: 0 10px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.5s;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #009AD8;
+    color: white;
+}
+
+.socialMediaIcons i:hover {
+    background-color: #ffff;
+    color: #009AD8;
+}
+
+footer {
+    background-color: #374850;
+}

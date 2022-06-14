@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>Weather application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <section>
+        <!-- navbar links -->
+        <nav class="navbar navbar-expand-lg main-color d-flex align-items-center  ">
+            <div class="container text-white">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div>
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" width="64"></a>
+                    </div>
+                    <div>
+                        <h5>Weather</h5>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 ">
+                        <li class="nav-item">
+                            <a class="border  rounded-pill py-2 px-3  mx-3 nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="mx-3 nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="mx-3 nav-link" href="#">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="mx-3 nav-link" href="#">Mobile App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="mx-3  nav-link" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <section class="caption container   p-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 caption-text">
+                <h3 class="mb-4 main-color-text">Weather App</h3>
+                <p class="lead">Having an up to date information about the weather helps us to take well-read decisions. These weather apps constantly update the forecasts for a day or hour or sometimes for even a minute. These can be simply termed as the compact weather
+                    devices, as they do not only tell about the temperature of that specific region instead they can describe the accurate time of the sunrise and sunset, the time of the rainfall, humidity levels, etc.</p>
+            </div>
+            <div class="offset-1 col-md-5 caption-img">
+                <img src="images/raining-animate-1.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- display -->
+    <section>
+        <div class="position-relative  w-50 m-auto">
+            <input id="findCity" type="text" placeholder="Search City..." class="form-control    rounded-pill p-3  my-5">
+            <button type="submit" id="searchBtn" class=" btn main-color text-white rounded-pill position-absolute ">Submit</button>
+        </div>
+
+        <div id="displayWeather" class="container w-75  card-group ">
+        </div>
+
+    </section>
+
+    <section class="downloadApp w-75 container">
+        <div class="row align-items-center">
+            <div class="col-md-5  text-center p-5">
+                <img class="img-fluid" src="images/download.png" alt="">
+            </div>
+            <div class="col-md-6 text-center p-5">
+                <h3 class="main-color-text">Mobile App</h3>
+                <p class="lead ">This weather app is one of best free weather apps with full features: Local weather weather map (weather map service) and weather widgets.</p>
+                <button class="btn btn-primary rounded-pill px-4 py-3">Download Android</button>
+                <button class="btn btn-primary rounded-pill px-4 py-3">Download IOS</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="subscribe w-75 container">
+        <div class="row align-items-center">
+
+            <div class="col-md-6 text-center p-5">
+                <h3 class="main-color-text">Subscribe</h3>
+                <p class="lead">Get daily weather updates, quotes & more..</p>
+                <input type="text" class="form-control rounded-pill mb-2" placeholder="Enter Your Email To Subscribe...">
+                <button class="btn btn-primary rounded-pill px-4 py-3">Subscribe</button>
+
+            </div>
+            <div class="col-md-5  text-center p-5">
+                <img class="img-fluid" src="images/subscribe.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="py-4 ">
+        <p class="text-light text-center">WeatherApi Application By @ Nourhan mansour . All rights reserved</p>
+
+        <div class="socialMediaIcons  d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
