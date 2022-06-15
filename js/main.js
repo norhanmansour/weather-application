@@ -25,7 +25,7 @@ findCity.addEventListener('keydown', function(e) {
 
 
 async function getData(cityName) {
-    var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${cityName}&days=3&aqi=yes&alerts=no`);
+    var response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${cityName}&days=3&aqi=yes&alerts=no`);
     var data = await response.json();
     allData = data;
     console.log(allData);
