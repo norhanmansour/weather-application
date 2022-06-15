@@ -35,7 +35,7 @@ async function getData(cityName) {
 // showdate
 //
 let date = new Date;
-let days = ['Sunday', 'Monday', 'Thuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday'];
+let days = ['Sunday', 'Monday', 'Thuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let currentDayIndex = date.getDay();
 let currentDay = days[currentDayIndex];
 let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
