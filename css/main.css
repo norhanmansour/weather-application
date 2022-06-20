@@ -1,3 +1,7 @@
+:root {
+    scroll-behavior: smooth;
+}
+
 .header-bgc {
     background-color: #374850;
     color: #BFC1C8;

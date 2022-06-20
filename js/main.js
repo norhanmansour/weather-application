@@ -21,6 +21,15 @@ findCity.addEventListener('keydown', function(e) {
     if (e.key == 'Enter') {
         getData(`${searchText}`)
     }
+});
+
+// search in api
+findCity.addEventListener('keyup', function(e) {
+    let searchCity = e.target.value;
+    if (searchCity.length > 2) {
+        getData(`${searchCity}`)
+
+    }
 })
 
 
@@ -42,10 +51,6 @@ let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 
 let currentMonthIndex = date.getMonth();
 let CurrentMonth = months[currentMonthIndex];
 let currentDayDate = date.getDate();
-
-
-
-
 
 
 //displaydata
